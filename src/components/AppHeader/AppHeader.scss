@@ -1,0 +1,13 @@
+.header {
+  padding: 0.5em 1em;
+  background: linear-gradient(to right, $green, $yellow);
+  color: $white;
+
+  &-logo {
+    width: 2em;
+  }
+
+  &-title {
+    display: inline;
+  }
+}

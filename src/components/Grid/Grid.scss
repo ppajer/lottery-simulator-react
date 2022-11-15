@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+$colSizes: 20,25,50,75,80,100;
+
+@each $size in $colSizes {
+  .col-#{$size} {
+    width: #{$size}+'%'
+  }
+}
+
+$spacingSizes: 1,2,3;
+
+@each $size in $spacingSizes {
+  .px-#{$size} {
+    padding-top: #{$size}+'em';
+    padding-bottom: #{$size}+'em'
+  }
+
+  .py-#{size} {
+    padding-left: #{$size}+'em';
+    padding-right: #{$size}+'em';
+  }
+
+  .mx-#{$size} {
+    margin-top: #{$size}+'em';
+    margin-bottom: #{$size}+'em'
+  }
+
+  .my-#{size} {
+    margin-left: #{$size}+'em';
+    margin-right: #{$size}+'em';
+  }
+}

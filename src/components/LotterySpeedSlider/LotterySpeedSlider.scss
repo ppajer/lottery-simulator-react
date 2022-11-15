@@ -1,0 +1,27 @@
+.slider {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background: $green;
+  border-radius: 0.5em;
+}
+
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-moz-range-track,
+input[type='range']::-ms-track {
+  -webkit-appearance: none;
+  appearance: none;
+  background: $green;
+  height: 1rem;
+  width: 100%;
+}
+
+.slider::-webkit-slider-thumb
+.slider::-moz-range-thumb
+.slider::-ms-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: $yellow;
+  width: 1em;
+  height: 1em;
+}

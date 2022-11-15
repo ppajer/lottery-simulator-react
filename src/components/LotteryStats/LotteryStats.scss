@@ -1,0 +1,22 @@
+.stats {
+  width: 25em;
+  max-width: 96%;
+  padding: 1em;
+
+  background: $green;
+  color: $white;
+
+  &-row {
+    display: flex;
+    margin-bottom: 0.3em;
+  }
+
+  &-label {
+    font-weight: 400;
+    width: 50%;
+  }
+
+  &-value {
+    font-weight: 700;
+  }
+}

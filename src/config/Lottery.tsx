@@ -1,0 +1,6 @@
+export const CONFIG = {
+  NUMBERS_TO_DRAW: 5,
+  NUMBER_MIN: 1,
+  NUMBER_MAX: 90,
+  PRICE: 300
+}

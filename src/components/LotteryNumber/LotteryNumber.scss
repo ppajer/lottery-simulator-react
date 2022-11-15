@@ -1,0 +1,20 @@
+.lottery-number {
+  width: 4em;
+  max-width: 96%;
+  padding: 1em;
+  box-sizing: border-box;
+  box-shadow: 0 0 0.3em rgba(#000, 0.4);
+  border-radius: 0.3em;
+  text-align: center;
+
+  &.match {
+    box-shadow: 0 0 0.5em $green;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lottery-number {
+    width: 3em;
+    padding: 0.5em;
+  }
+}
